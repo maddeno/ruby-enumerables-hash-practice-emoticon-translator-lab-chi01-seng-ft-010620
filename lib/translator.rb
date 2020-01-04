@@ -29,4 +29,5 @@ def get_english_meaning(file_path, emoticon)
   else
     english_meaning = data[:get_meaning][emoticon]
   end
+  english_meaning
 end
